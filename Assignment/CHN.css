@@ -1,0 +1,35 @@
+@font-face      {
+                font-family: Shanhai;
+                src: url(Shanhai.ttf);
+                }
+.back           {
+                position: fixed;
+                margin-top: 0px;
+                margin-left:0px;
+                }    
+.title          {
+                position: absolute;
+                margin-top: 0px;
+                margin-left:20px;
+                font-family: Shanhai;
+                font-weight:500;
+                font-size:80px;
+                color: yellow;
+                }
+/* .col-sm-2       {
+                position: absolute;
+                margin-top: 150px;
+                }
+.col-sm-10      {
+                position: absolute;
+                margin-top: 300px;                
+                } */
+a.navi          {
+                color: blue;
+                font-size: 30px;
+                text-decoration:none;              
+                }
+a.navi:hover    {
+                background-color: black;
+                color: yellow;                
+                }

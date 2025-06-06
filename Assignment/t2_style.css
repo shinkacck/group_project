@@ -1,0 +1,120 @@
+.header         {
+                position: fixed;
+                height: 10%;
+                width: 100%;
+                }
+                @font-face{
+                            font-family: Shanhai;
+                            src: url(Shanhai.ttf);
+                           }
+                .ff1{font-family: Shanhai; font-weight:500; font-size:150px; color:rgb(188, 39, 39)}
+.main           {
+                position: fixed;
+                top: 10%;
+                height: 80%;
+                width: 100%;
+                background-image: url('bg-03.png'), url('grass.jpg');
+                background-position-x: 200px, 200px;
+                background-position-Y: 0px, 0px;
+                background-size: 1000px, 1000px;
+                background-repeat: no-repeat, no-repeat;
+                margin: 0px, 0px;
+                background-attachment: fixed;
+                }
+                .beijin {
+                        position:absolute;
+                        left: 100px;
+                        top: 140px;
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;
+                        }
+                @font-face {
+                            font-family: 華康流風體;
+                            src: url(華康流風體.TTF);
+                           }
+                        .beijin-name{
+                            position:absolute;
+                            left: 50px;
+                            bottom: 10px;
+                            font-family: 華康硬黑體;
+                            font-size: 50px;
+                            font-weight: 600;
+                            color: yellow;                                   
+                            }                     
+                .aomori {
+                        position:absolute;
+                        left: 450px;
+                        top: 80px;
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;                        
+                        }
+                        .aomori-name{
+                            position:absolute;
+                            left: 50px;
+                            bottom: 10px;
+                            font-family: 華康硬黑體;
+                            font-size: 50px;
+                            font-weight: 600;
+                            color: yellow;                                                    
+                            } 
+                .egypt  {
+                        position:absolute;
+                        left: 650px;
+                        top: 230px;
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;                        
+                        }
+                        .souel-name{
+                            position:absolute;
+                            left: 50px;
+                            bottom: 10px;
+                            font-family: 華康硬黑體;
+                            font-size: 50px;
+                            font-weight: 600;
+                            color: yellow;                                                    
+                            } 
+                .taipei {
+                        position:absolute;
+                        left: 1040px;
+                        top: 20px;
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 300px;
+                        }
+                        .taipei-name{
+                            position:absolute;
+                            left: 50px;
+                            bottom: 10px;
+                            font-family: 華康硬黑體;
+                            font-size: 50px;
+                            font-weight: 600;
+                            color: yellow;                                                    
+                            }
+                .dot1   {
+                        height: 35px;
+                        width: 35px;
+                        background-image: linear-gradient(45deg, white, grey); background-repeat: no-repeat;
+                        border-radius: 50%;
+                        display: inline-block;
+                        }
+                .dot2   {
+                        height: 25px;
+                        width: 25px;
+                        background-image: linear-gradient(45deg, white, grey); background-repeat: no-repeat;
+                        border-radius: 50%;
+                        display: inline-block;
+                        }
+.footer                 {
+                        position: fixed;
+                        top: 90%;
+                        height: 10%;
+                        width: 100%;
+                        border-top: 1px solid gray;
+                        }
+.link                   {
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        }

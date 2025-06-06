@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c_style.css">
+</head>
+<body>
+<!-- START -->
+    <!-- HEADER -->
+    <div class="header">
+        <a class="ff1">歷史之旅</a>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <div class="navigator">
+        <a class="navi" href="#" onclick="changeIframe('./c-brief.html')" aria-hidden="true"></i>城市特色</a>
+        <a class="navi" href="#" onclick="changeIframe('./c-climate.html')">氣候</a>
+        <a class="navi" href="#" onclick="changeIframe('./c-scene2.html')">景點</a>
+        <a class="navi" href="#" onclick="changeIframe('./c-video.html')">精選影片</a>
+        <a class="navi" href="./travel-02.html">返回首頁</a>
+    </div>
+    <!-- MAIN CONTENT -->
+    <div class="main">        
+    </div>    
+    
+    <!-- USEFUL LINK -->
+    <div class="footer">
+        <a class="link" href="https://www.agoda.com/zh-hk/" target="_blank"><img src="Agoda Icon.png" width="100px"></a>
+        <a class="link" href="https://www.booking.com/index.html?aid=2369661&label=sl2b_msn-l5A0i8Dms_IiKGM216ZBvw-79920939308214%3Atikwd-79921113257593%3Aloc-200%3Aneo%3Amte%3Alp200%3Adec%3Aqsbooking.com&sid=8e632dbbdfcacc9d5166e757b7b5ea7d&;msclkid=3e24606a529a1810b9ae08728bc90f04"><img src="Booking_com icon.png" width="100px"></a>
+        <a class="link" href="https://www.expedia.com.hk/?locale=zh_HK&siteid=18&semcid=HK.B.BING.BT-c-ZH.GT&semdtl=a1686369353.b11327112079667629.g1kwd-82945340179860.e1c.m158961a753d9f12f4de6a726de4e383b3.r13bb8d4ad11b65bd7289a80215af1a6c28c47134089ab614f469bfc010f89c495.c1FBE5fvzS4HzLpKO8HvReQA.j1200.k1.d182944753287441.h1e.i1.l1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&msclkid=58961a753d9f12f4de6a726de4e383b3"><img src="Expedia Icon.png" width="100px"></a><br>
+        <p style="text-align: center;">- &copy;2025 Copyright by Raymond Chau -</p>
+    </div>
+<!-- END --> 
+<script>
+    function changeIframe(url) {
+    document.getElementById('myIframe').src = url;
+    }
+  </script>
+</body>
+</html>

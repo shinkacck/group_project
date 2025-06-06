@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Loading Example</title>
+    <script>
+        function loadContent(page) {
+            const xhttp = new XMLHttpRequest();
+            xhttp.open('GET', page + '.html', true);
+            xhttp.onload = function () {
+                                        if (xhttp.status === 200)   {
+                                           document.getElementById('content').innerHTML = xhttp.responseText;
+                                           }
+                                        };
+            xhttp.send();
+            }
+    </script>
+    <style>
+    body{
+        background-color: lightblue;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Main Page</h1>
+    <button onclick="loadContent('Page1')">Load Page 1</button>
+    <button onclick="loadContent('page2')">Load Page 2</button>
+    <div id="content">
+        <p>Welcome to the main page!</p>
+    </div>
+</body>
+</html>

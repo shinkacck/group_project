@@ -1,0 +1,53 @@
+header{
+        background-image: url(bg-pict.png);
+}
+
+.image{border: 2px solid black;}
+#aa{color:orange; font-family: arial;}
+a{color:red; font-size: 30px;}
+p{color:darkmagenta; font-size: 20px;}
+.c1{color:chartreuse; font-size: 25px; font-weight: 800;}  
+.c2{color:green;}
+.f1{font-family:Microsoft JhengHei; font-weight:1000; font-size: 40px;}
+.f2{font-family:PMingLiU; font-weight:1000; font-size: 40px;} 
+.f3{font-family:DFKai-SB; font-weight:1000; font-size: 40px;}
+@font-face {
+    font-family: 華康硬黑體;
+    src: url(華康硬黑體.TTF);
+        }
+    .f4{font-family: 華康硬黑體; font-weight:1000; font-size: 40px; color:yellow}
+@font-face {
+    font-family: 華康流風體;
+    src: url(華康流風體.TTF);
+        }
+    .f5{font-family: 華康流風體; font-weight:1000; font-size: 60px; color:yellow}
+
+.navibar{
+    background-color: lightgrey;
+}
+a.navi{
+     background-color: lightgrey;
+     color: blue;
+     font-size: 30px;
+     text-decoration: none;
+     margin-left: 10px;
+     margin-right: 10px;
+     }
+a.navi:hover{
+    background-color: black;
+    color: yellow;
+    font-size: 40px;    
+}
+.agoda{
+   margin-bottom: 30px;
+   }
+.booking{
+    padding-bottom: 30px;    
+   }
+.expedia{
+    padding-bottom: 30px;    
+}
+.link{
+    padding-left: 20px; 
+    padding-right: 20px;    
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>青森導覽系統</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="c-style-02.css">
+</head>
+<body>
+    <div class="layout-container">
+        <!-- 頂部區塊 (20% 高度) -->
+        <div id="header" class="d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <h1 class="display-5 fw-bold">北京</h1>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 中間區塊 (65% 高度) -->
+        <div id="middle">
+            <!-- 左側導航 (15% 寬度) -->
+            <div id="left">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-content="climate">
+                            <i class="fas fa-sun"></i> 氣候特徵
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-content="attractions">
+                            <i class="fas fa-mountain"></i> 景點介紹
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-content="jplan">
+                            <i class="fas fa-theater-masks"></i> 行程建議
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="back" href="travel-02.html">
+                            <i class="fas fa-train"></i> &nbsp; &nbsp; 返回主頁
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- 右側內容 (85% 寬度) -->
+            <div id="right">
+                <!-- 氣候內容區塊 -->
+                <div id="climate-content" class="content-section active">
+                    <h2 class="section-title">北京氣候特徵</h2>
+                    <img src="1.png" alt="北京冬季景色" class="content-img">
+                    <!-- <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="青森冬季景色" class="content-img"> -->
+                    <p class="content-text">
+                        北京是中國的首都，位於北方內陸地帶，擁有豐富多樣的氣候特徵。由於地理位置偏北，青森的四季分明，每個季節都有其獨特的魅力。
+                    </p>
+                    
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <div class="stat-value">4℃</div>
+                            <div class="stat-label">冬季平均低溫</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">30℃</div>
+                            <div class="stat-label">夏季平均高溫</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">560mm</div>
+                            <div class="stat-label">年均降水量</div>
+                        </div>
+                    </div>
+                    
+                    <h3>四季氣候特點</h3>
+                    <p class="content-text">
+                        <strong>春季（3月-5月）：</strong> 3月仍寒冷有雪，4月開始回暖，櫻花通常在4月下旬至5月上旬盛開，是著名的賞櫻勝地。<br>
+                        <strong>夏季（6月-8月）：</strong> 涼爽舒適，平均氣溫約20-25℃，是避暑的理想之地。夏季有豐富的祭典活動，如著名的青森睡魔祭。<br>
+                        <strong>秋季（9月-11月）：</strong> 氣溫逐漸下降，10月是賞楓的最佳時期，奧入瀨溪流和十和田湖的楓景令人驚嘆。<br>
+                        <strong>冬季（12月-2月）：</strong> 寒冷多雪，日本海側降雪量極大，山區積雪可達數米深，是滑雪和溫泉的熱門季節。
+                    </p>
+                </div>
+                
+                <!-- 旅遊景點區塊 -->
+                <div id="attractions-content" class="content-section">
+                    <h2 class="section-title">旅遊景點推介</h2>                    
+                    <!-- SLIDER WITH CONTROLS -->
+                    <div id="slider2" class="carousel slide mb-4" data-ride="carousel" style="width:700px;">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block" src="palace.jpeg" width="700" height="400" alt="First Slide" style="border-radius:30px">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block" src="tintan.jpg" width="700" height="400" alt="Second Slide" style="border-radius:30px">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block" src="長城.jpg" width="700" height="400" alt="Third Slide" style="border-radius:30px">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block" src="yi-wo.jpg" width="700" height="400" alt="Fourth Slide" style="border-radius:30px">
+                            </div>
+                             <div class="carousel-item">
+                                <img class="d-block" src="yuen-ming.jfif" width="700" height="400" alt="Fifth Slide" style="border-radius:30px">
+                            </div>                            
+                        </div>
+                                   
+                    <!-- CONTROLS -->
+                    <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#slider2" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    </div>
+
+                <p style="font-size: 25px;"> 
+                <img src="c-map.jpg" width="800px"><a href="map.png" target="_blank" style="background-color: darkblue; color:white; text-decoration:none">按此放大</a><br>
+                北京景點地圖<br>
+                <img src="palace.jpeg" height="480px"><br>
+                故宮<br>
+                <img src="tintan.jpg" height="480px"><br>
+                天壇<br>
+                <img src="長城.jpg" height="480px"><br>
+                長城 (慕田峪)<br>
+                </p>
+                </div>                
+                
+                <!-- 行程建議區塊 -->
+                <div id="jplan-content" class="content-section">
+                    <h2 class="section-title">行程建議</h2>
+                    <div class="plan" style="font-size:25px;">
+                    <h2>北京歷史之旅</h2>
+                    📅<u>行程建議（3天2夜）</u><br>
+                    主題： 穿越時空，探尋千年古都的歷史印記<br>
+                    適合人群： 歷史愛好者、文化探索者<br>
+                    行程特點： 涵蓋北京最具代表性的歷史景點，體驗傳統文化，品嚐地道美食。<br>
+                    <br>
+                    🌲第一天：明清皇城之旅<br>
+                    <br>
+                    上午：<br>                    
+                    天安門廣場 (1小時)： 世界上最大的城市廣場，感受莊嚴肅穆的氛圍。<br>
+                    故宮博物院 (3小時)： 明清兩代的皇家宮殿，欣賞宏偉的建築和珍貴的文物。建議提前網上預約門票，避免排隊。<br>
+                    午餐： 故宮附近的「四季民福烤鴨店」，品嚐正宗的北京烤鴨。<br>
+                    <br>
+                    下午：<br>                    
+                    景山公園 (1小時)： 登頂萬春亭，俯瞰故宮全景。<br>
+                    北海公園 (1.5小時)： 皇家園林，泛舟湖上，欣賞白塔美景。<br>
+                    <br>
+                    晚餐： 王府井大街「東來順飯莊」，體驗涮羊肉的火鍋文化。<br>
+                    住宿： 建議選擇前門或王府井附近的酒店，方便出行。<br>
+                    <br>
+                    🌲第二天：長城與皇家園林<br>
+                    <br>
+                    上午：<br>
+                    八達嶺長城 (3小時)： 萬里長城的精華段，感受古代勞動人民的智慧與力量。建議乘坐纜車上下，節省體力。<br>
+                    午餐： 長城腳下的農家樂，品嚐農家菜。<br>
+                    <br>
+                    下午：<br>
+                    頤和園 (3小時)： 皇家園林，漫步長廊，欣賞昆明湖美景。<br>
+                    <br>
+                    晚餐： 返回市區，品嚐「全聚德烤鴨店」的另一種風味。<br>
+                    晚上： 觀看「老舍茶館」的京劇表演，感受傳統文化魅力。<br>
+                    <br>
+                    🌲第三天：胡同與博物館<br>
+                    <br>
+                    上午：<br>
+                    南鑼鼓巷 (1.5小時)： 北京最古老的胡同之一，體驗老北京的生活氣息。<br>
+                    什剎海 (1.5小時)： 騎行或散步，感受湖光水色與胡同文化的交融。<br>
+                    午餐： 什剎海附近的「烤肉季」，品嚐老北京炙子烤肉。<br>
+                    <br>
+                    下午：<br>
+                    中國國家博物館 (2小時)： 了解中國悠久的歷史和文化。<br>
+                    前門大街 (1小時)： 百年商業街，購買特色紀念品。<br>
+                    <br>
+                    晚餐： 根據返程時間靈活安排。<br>
+                    <br>
+                    🚗 <u>交通建議：</u><br>
+                    北京市內地鐵發達，建議優先選擇地鐵出行。<br>
+                    前往八達嶺長城可乘坐旅遊專線巴士或火車。<br>
+                    景點之間距離較近可選擇步行或共享單車。<br>
+                    <br>
+                    🍜<u>必吃美食</u><br>
+                    北京烤鴨（全聚德）<br>
+                    涮羊肉（東來順）<br>
+                    爆肚（爆肚馮）<br>
+                    炸醬麵（海碗居）<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 底部區塊 (15% 高度) -->
+        <div id="footer">
+            <div class="container-fluid">
+                <div class="row align-items-center h-100">
+                    <div class="col-md-6">
+                        <h5 class="mb-0">個人旅遊網</h5>
+                        <p class="mb-0">© 2025 版權所有</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <button class="btn btn-light">關於我們</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 返回頂部按鈕 -->
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 導航切換功能
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // 移除所有活動狀態
+                document.querySelectorAll('.nav-link').forEach(el => {
+                    el.classList.remove('active');
+                });
+                
+                // 添加當前活動狀態
+                this.classList.add('active');
+                
+                // 隱藏所有內容區塊
+                document.querySelectorAll('.content-section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                
+                // 顯示對應內容區塊
+                const contentId = this.getAttribute('data-content') + '-content';
+                document.getElementById(contentId).classList.add('active');
+            });
+        });
+        
+        // 返回頂部功能
+        const backToTopBtn = document.getElementById('back-to-top');
+        
+        // 滾動事件監聽
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+        
+        // 點擊返回頂部
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    <script>
+    $('.carousel').carousel({
+      interval: 3000,
+      keyboard: true,
+      wrap: true,
+    });
+
+    $('#slider2').on('slide.bs.carousel', function () {
+      console.log('SLIDE!');
+    });
+
+    $('#slider2').on('slid.bs.carousel', function () {
+      console.log('SLID!');
+    });
+
+    function changeIframe(url) {
+    document.getElementById('myIframe').src = url;
+    }  
+    </script>  
+</body>
+</html>
